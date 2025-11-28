@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  namespace: cloudflared
+  name: tunnel-token
+stringData:
+  token: ""
